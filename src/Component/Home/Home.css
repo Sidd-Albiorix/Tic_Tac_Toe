@@ -1,0 +1,25 @@
+.homeWrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -250px);
+    padding: 0px 16px;
+}
+
+.homeWrapper .headerText {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.boardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px 0px;
+    width: 180px;
+}
+
+.boardWrapper .boardBtns {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+}
